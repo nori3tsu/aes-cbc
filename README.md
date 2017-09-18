@@ -29,10 +29,10 @@ key = AES::CBC.generate
 iv = AES::CBC.generate
 # => "da7d1be1554419c50e30a57cc03dc3a8"
 
-hex = AES::CBC.encrypt(key, iv, 'hello')
+b64 = AES::CBC.encrypt(key, iv, 'hello')
 # => "QIT3wHuMqKD1JVQxiB6JdQ=="
 
-text = AES::CBC.decrypt(key, iv, hex)
+text = AES::CBC.decrypt(key, iv, b64)
 # => "hello"
 ```
 
