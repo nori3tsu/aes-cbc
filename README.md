@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```
-require 'aes-cbc'
+require 'aes/cbc'
 
 key = AES::CBC.generate
 # => "cff7f10e35485c096f55cef88b0b5463"
