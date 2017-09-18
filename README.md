@@ -7,7 +7,7 @@ This is an easy-to-use encryption library specialized for aes-128-cbc.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'aes/cbc'
+gem 'aes-cbc'
 ```
 
 And then execute:
